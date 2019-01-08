@@ -1,0 +1,10 @@
+.top-block__appstore-download {
+  display: inline-block;
+  width: 130px;
+  height: 46px;
+  background-image: url("/img/appstore_download.png");
+  background-repeat: no-repeat;
+  line-height: 0; 
+  font-size: 0;
+  margin-top: 54px;
+}

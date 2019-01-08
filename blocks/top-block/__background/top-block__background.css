@@ -1,0 +1,27 @@
+.top-block__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(6px);
+}
+
+@media only screen and (min-width: 1200px) {
+  .top-block__background {
+    background: 
+      url(/img/tb2.png) 37% 3% no-repeat, 
+      url(/img/tb3.png) 96% 78% no-repeat, 
+      url(/img/tb5.png) 47% 107% no-repeat;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .top-block__background {
+    background: 
+      url(/img/tb1.png) 83% 29% no-repeat,
+      url(/img/tb2.png) 44% 3% no-repeat, 
+      url(/img/tb3.png) 72% 78% no-repeat, 
+      url(/img/tb4.png) 9% 34% no-repeat, 
+      url(/img/tb5.png) 48% 107% no-repeat;
+  }
+}

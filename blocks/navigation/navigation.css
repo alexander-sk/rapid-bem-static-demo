@@ -1,0 +1,9 @@
+.navigation {
+  padding: 0;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 1200px;
+}

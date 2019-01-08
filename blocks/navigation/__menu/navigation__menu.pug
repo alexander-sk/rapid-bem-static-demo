@@ -1,0 +1,13 @@
+mixin _item(name, href)
+  li
+    a.navigation__menu-item.font_roboto(href=href)= name
+
+mixin navigation__menu   
+  ul.navigation__menu
+    +_item('About', '#')
+    +_item('Features', '#')
+    +_item('Reviews', '#')
+    +_item('Blog', '#')
+    +_item('Support', '#')
+    +_item('Get App', '#')
+

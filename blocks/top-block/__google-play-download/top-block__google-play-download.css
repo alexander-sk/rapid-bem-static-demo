@@ -1,0 +1,9 @@
+.top-block__google-play-download {
+  display: inline-block;
+  width: 137px;
+  height: 46px;
+  background-image: url("/img/google_play_download.png");
+  line-height: 0; 
+  font-size: 0;
+  margin-left: 31px;
+}

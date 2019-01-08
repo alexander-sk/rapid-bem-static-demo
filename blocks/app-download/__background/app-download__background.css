@@ -1,0 +1,27 @@
+.app-download__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(6px);
+}
+
+@media only screen and (min-width: 1200px) {
+  .app-download__background {
+    background: 
+      url(/img/appd1.png) 103% 37% no-repeat,
+      url(/img/appd2.png) -3% 46% no-repeat, 
+      url(/img/appd3.png) 10% 106% no-repeat;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .app-download__background {
+    background: 
+      url(/img/appd1.png) 74% 35% no-repeat,
+      url(/img/appd2.png) 25% 46% no-repeat, 
+      url(/img/appd3.png) 31% 105% no-repeat,
+      url(/img/appd4.png) 87% 115% no-repeat,
+      url(/img/appd5.png) 11% 60% no-repeat;
+  }
+}

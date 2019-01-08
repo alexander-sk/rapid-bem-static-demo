@@ -1,0 +1,22 @@
+.navigation__menu-item {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  /* Link reset */
+  color: inherit;
+  text-decoration: inherit;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.navigation__menu-item_active, .navigation__menu-item:hover, .navigation__menu-item:focus  {
+  background-color: white;
+  color: #2ecc71;
+  border-radius: 45px;
+}
+
+.navigation__menu-item:focus  {
+  outline: 0;
+}
